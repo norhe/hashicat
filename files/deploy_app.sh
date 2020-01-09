@@ -12,8 +12,10 @@ cat << EOM > /var/www/html/index.html
   <center><img src="http://${PLACEHOLDER}/${WIDTH}/${HEIGHT}"></img></center>
   <center><h2>Meow World!</h2></center>
   Welcome to ${PREFIX}'s app. 
+  
 
-  Don't tell anyone, but what if cat's said ${SECRET}
+  Now, this is critical and extremely sensitive.  In fact, the value is being retrieved from Vault!
+  So don't tell anyone, but what if cat's said ${SECRET}?
   <!-- END -->
   
   </div>

@@ -4,5 +4,5 @@ output "catapp_url" {
 }
 
 output "cats_say" {
-  value = "${data.vault_generic_secret.cats_say}"
+  value = "${data.vault_generic_secret.cats_say.data.catssay}"
 }
